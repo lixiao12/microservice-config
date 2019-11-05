@@ -26,13 +26,13 @@ spring:
 
 eureka:
   instance:
-    hostname: localhost  #eureka客户端主机实例名称
-    appname: microservice-student  #客户端服务名
-    instance-id: microservice-student:1007 #客户端实例名称
-    prefer-ip-address: true #显示IP
+    hostname: localhost
+    appname: microservice-student
+    instance-id: microservice-student:1007
+    prefer-ip-address: true
   client:
     service-url:
-      defaultZone: http://localhost:2004/eureka   #把服务注册到eureka注册中心
+      defaultZone: http://localhost:2004/eureka
 
 info:
   groupId: com.javaxl.testSpringcloud
@@ -63,13 +63,13 @@ spring:
 
 eureka:
   instance:
-    hostname: localhost  #eureka客户端主机实例名称
-    appname: microservice-student  #客户端服务名
-    instance-id: microservice-student:1008 #客户端实例名称
-    prefer-ip-address: true #显示IP
+    hostname: localhost
+    appname: microservice-student
+    instance-id: microservice-student:1008
+    prefer-ip-address: true
   client:
     service-url:
-      defaultZone: http://localhost:2004/eureka   #把服务注册到eureka注册中心
+      defaultZone: http://localhost:2004/eureka
 
 info:
   groupId: com.javaxl.testSpringcloud
